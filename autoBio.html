@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoBiografía</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <header class="bg-dark text-white text-center py-3">
+        <h1>Mi Autobiografía</h1>
+    </header>
+
+    <body class="contenedor">
+        <nav class="navbar navbar-dark navbar-custom fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">
+                    <img height="70px" margin-right="10px" src="" alt="">
+                    <span class="brand-text" style="font-size: 2rem;">KINAL</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">MENÚ</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-secondary" onclick="location.href='index.html'">Página Principal</button>
+                        </li>
+                        <br>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-secondary" onclick="location.href='autoBio.html'">AutoBiografia</button>
+                        </li>
+                        <br>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-secondary" onclick="location.href='kinal.html'">Kinal</button>
+                        </li>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </body>
+        <div class="row mt-5">
+            <div class="col-md-4 text-center">
+                <img src="assets/images/yomero.png" alt="Foto de perfil" class="img-fluid rounded-circle" style="width: 200px; height: 190px;">
+            </div>
+
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title">Hola, soy Christian Medrano</h2>
+                        <p class="card-text">Soy una persona apasionada por la tecnología y el aprendizaje continuo. Me gusta enfrentar nuevos desafíos y aprender de cada experiencia.</p>
+                        <p>Mi objetivo en la vida es mejorar cada día y contribuir a la sociedad con mis habilidades.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Mis Intereses</h3>
+                        <ul>
+                            <li>Desarrollo web</li>
+                            <li>Inteligencia Artificial</li>
+                            <li>Viajar y conocer nuevas culturas</li>
+                            <li>Lectura de libros de filosofía y ciencia</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Logros</h3>
+                        <ul>
+                            <li>Graduado en Ingeniería de Sistemas</li>
+                            <li>Certificación en Desarrollo Web Full Stack</li>
+                            <li>Conferencista en varias charlas tecnológicas</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p>&copy; 2025 Mi Autobiografía</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rediseño Colegio Kinal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+        }
+        .navbar {
+            background-color: #003865; 
+        }
+        .navbar-brand, .nav-link {
+            color: #fff !important; 
+        }
+        .nav-link:hover {
+            background-color: #ffc107; 
+            color: #003865 !important;
+        }
+        .program-image {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #003865;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Colegio Kinal</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Carreras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Admisiones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://static.wixstatic.com/media/128120_886cbfb61dea452e9c27433bba8c7494~mv2.jpg/v1/fill/w_1747,h_683,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/128120_886cbfb61dea452e9c27433bba8c7494~mv2.jpg" class="d-block w-100" alt="Imagen 1">
+            </div>
+            <div class="carousel-item">
+                <img src="https://static.wixstatic.com/media/128120_5b7d5bf84fbd4e63ad35b7a055f980c0~mv2.jpg/v1/fill/w_1747,h_683,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/128120_5b7d5bf84fbd4e63ad35b7a055f980c0~mv2.jpg" class="d-block w-100" alt="Imagen 2">
+            </div>
+            <div class="carousel-item">
+                <img src="https://static.wixstatic.com/media/128120_c1218c187f2b4df0ab85b97ad582c786~mv2.jpg/v1/fill/w_1747,h_683,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/128120_c1218c187f2b4df0ab85b97ad582c786~mv2.jpg" class="d-block w-100" alt="Imagen 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Introduction -->
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Bienvenidos al Colegio Kinal</h1>
+        <p class="text-center">
+            Esta es una página rediseñada para mejorar la experiencia del usuario mientras conserva los valores y colores distintivos del Colegio Kinal.
+        </p>
+    </div>
+
+    <!-- Kinal Programs Section -->
+    <div class="container my-5">
+        <div class="row text-center">
+            <div class="col-md-4 mb-4">
+                <img src="https://static.wixstatic.com/media/128120_e70270b3fe48460d91faa702eb0e3619~mv2.jpg" alt="Ciclo Básico" class="program-image">
+                <h5 class="fw-bold text-danger">CICLO BÁSICO | 11-13 AÑOS</h5>
+                <p>Kinal ofrece su programa de Educación General Básica para todos aquellos jóvenes que buscan una orientación técnica y excelencia académica.</p>
+                <a href="#" class="btn btn-primary">Conoce Más</a>
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="https://static.wixstatic.com/media/128120_f7e5ea02ac774e6fba7863af89dd605d~mv2.jpg" alt="Diversificado" class="program-image">
+                <h5 class="fw-bold text-primary">DIVERSIFICADO | 15-18 AÑOS</h5>
+                <p>Durante 3 años se prepara al joven de forma técnica y académica, el egresado estará listo para el mundo laboral o universitario.</p>
+                <a href="#" class="btn btn-primary">Conoce Más</a>
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="https://static.wixstatic.com/media/128120_3235e56086f844b48fffcc2d7b117fa2~mv2.jpg" alt="Escuela Técnica" class="program-image">
+                <h5 class="fw-bold text-warning">ESCUELA TÉCNICA | ADULTOS</h5>
+                <p>Contamos con más de 30 especialidades técnicas y tecnológicas para favorecer tu inserción laboral y crecimiento profesional.</p>
+                <a href="#" class="btn btn-primary">Conoce Más</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Colegio Kinal. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
